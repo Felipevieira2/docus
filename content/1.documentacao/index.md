@@ -33,7 +33,7 @@ Para consultar, você deve enviar o parâmetro `acao` com o valor definido como 
 
 ```bash
 curl -X POST 'https://api-sms-gateway.fcati.com.br' \
--H 'Authorization: Bearer eyJzdWIiOiIxMjM0NTY3ODkwIi..' \
+-H 'Authorization: Bearer eyJz2123dasdWIiOiIxM123jM0NTY3ODkwIi..' \
 -H 'Content-Type: application/json' \
 -d '{
   "acao": "saldo"
