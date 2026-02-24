@@ -62,12 +62,20 @@ Este processo inicializa o envio das suas mensagens SMS diretamente para o desti
 
 ```bash
 curl -X POST 'https://api-sms-gateway.fcati.com.br' \
--H 'Authorization: Bearer eyJzdWIiOiIxMjM0NTY...' \
+-H 'Authorization: Bearer eyJzdWIiOiIx...' \
 -H 'Content-Type: application/json' \
 -d '{
-  "acao": "saldo"
+  "acao": "enviar",
+  "recipient": "5511947651152",
+  "text": "Teste da API estruturada!"
 }'
 ```
+
+::alert{type="warning" icon="i-lucide-alert-triangle"}
+**Atenção ao Formato do Número!**
+O parâmetro `recipient` deve obrigatoriamente conter o código do país (**DDI**, ex: `55` para Brasil) seguido do código de área (**DDD**, ex: `11`) e finalmente o número do telefone. Não adicione espaços ou caracteres especiais.
+Exemplo correto: `5511947651152`
+::
 
 ::callout{icon="i-lucide-smartphone" color="blue"}
 **Resposta do Envio**
