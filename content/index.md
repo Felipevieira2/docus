@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Documentação da API de SMS da FCATI
+description: Documentação oficial da API de SMS da FCATI
 navigation: false
 ---
 
@@ -9,7 +9,7 @@ navigation: false
 API SMS FCATI
 
 #description
-Envie mensagens SMS e consulte seu saldo através da nossa API simples e minimalista. Tudo o que você precisa para integrar comunicações via SMS em minutos.
+Integre envio de mensagens SMS às suas aplicações com facilidade. Uma API robusta, rápida e minimalista, projetada para desenvolvedores que buscam eficiência e resultados.
 
 #links
   :::u-button
@@ -19,45 +19,57 @@ Envie mensagens SMS e consulte seu saldo através da nossa API simples e minimal
   to: /documentacao
   trailing-icon: i-lucide-arrow-right
   ---
-  Ver Documentação API
+  Explorar Documentação
+  :::
+
+  :::u-button
+  ---
+  color: neutral
+  size: xl
+  to: https://fcati.com.br/
+  target: _blank
+  variant: outline
+  trailing-icon: i-lucide-external-link
+  ---
+  Site Institucional
   :::
 ::
 
 ::u-page-section
 #title
-Funcionalidades Principais
+Por que escolher a nossa API?
 
 #features
   :::u-page-feature
   ---
-  icon: i-lucide-message-square
+  icon: i-lucide-zap
   ---
   #title
-  Envio de SMS
+  Alta Entregabilidade
   
   #description
-  Garanta a entrega eficiente de suas mensagens em massa ou notificações individuais via SMS.
+  Alcance seu público-alvo de forma instantânea. Plataforma ideal para envio de notificações críticas, tokens (MFA), campanhas em massa e alertas individuais com garantia de entrega.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-wallet
+  icon: i-lucide-pie-chart
   ---
   #title
-  Consulta de Saldo
+  Controle em Tempo Real
   
   #description
-  Acompanhe o seu saldo de envio de SMS a qualquer momento usando o nosso endpoint simplificado.
+  Monitore seus créditos de forma proativa através do nosso endpoint de consulta, garantindo previsibilidade financeira e controle total sobre a sua operação de envios.
   :::
 
   :::u-page-feature
   ---
-  icon: i-lucide-code
+  icon: i-lucide-terminal-square
   ---
   #title
-  Fácil Integração
+  Integração Descomplicada
   
   #description
-  Documentação direta e objetiva, focada na necessidade do desenvolvedor para rápida implementação.
+  Esqueça documentações complexas. Nossa infraestrutura foi estruturada para que você possa implementar o webhook e testar os envios em apenas alguns minutos.
   :::
 ::
