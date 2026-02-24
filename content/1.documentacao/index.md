@@ -32,7 +32,7 @@ Utilize este *endpoint* para verificar a quantidade atual de créditos disponív
 Para consultar, você deve enviar o parâmetro `acao` com o valor definido como `saldo` direto no corpo da sua requisição (`body`):
 
 ```bash
-curl -X POST 'https://n8n.fcati.com.br/webhook/api-sms' \
+curl -X POST 'https://api-sms-gateway.fcati.com.br' \
 -H 'Authorization: Bearer eyJzdWIiOiIxMjM0NTY3ODkwIi..' \
 -H 'Content-Type: application/json' \
 -d '{
@@ -61,7 +61,7 @@ Este processo inicializa o envio das suas mensagens SMS diretamente para o desti
 *(A estrutura completa do payload de envio será interpretada conforme as regras de negócio alinhadas previamente no momento da integração webhook. Abaixo listamos as rotas e tipos de cabeçalho mandatórios.)*
 
 ```bash
-curl -X POST 'https://n8n.fcati.com.br/webhook/api-sms' \
+curl -X POST 'https://api-sms-gateway.fcati.com.br' \
 -H 'Authorization: Bearer eyJzdWIiOiIxMjM0NTY...' \
 -H 'Content-Type: application/json' \
 -d '{
