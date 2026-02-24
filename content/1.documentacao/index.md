@@ -80,3 +80,20 @@ A API confirmará os detalhes do processamento caso a sua mensagem seja inserida
 }
 ```
 ::
+
+---
+
+## Suporte Técnico
+
+Encontrou algum problema durante a integração ou possui dúvidas adicionais? Entre em contato com nossa equipe técnica abrindo um chamado.
+
+::u-button
+---
+to: https://fcati.com.br/helpdesk/assistencia-ao-cliente-1
+target: _blank
+icon: i-lucide-life-buoy
+color: primary
+size: md
+---
+Abrir Ticket de Suporte
+::

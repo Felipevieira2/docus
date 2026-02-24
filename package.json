@@ -1,5 +1,5 @@
 {
-  "name": "api-sms-docs",
+  "name": "sms-docs",
   "scripts": {
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus"

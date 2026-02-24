@@ -3,7 +3,7 @@ export default defineAppConfig({
         title: 'FCATI SMS API',
         description: 'Documentação oficial da API de SMS',
         header: {
-            logo: false,
+            logo: true,
             title: 'FCATI API',
             showLinkIcon: true,
             exclude: []

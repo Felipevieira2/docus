@@ -33,6 +33,18 @@ Integre envio de mensagens SMS às suas aplicações com facilidade. Uma API rob
   ---
   Site Institucional
   :::
+
+  :::u-button
+  ---
+  color: neutral
+  size: xl
+  to: https://fcati.com.br/helpdesk/assistencia-ao-cliente-1
+  target: _blank
+  variant: outline
+  trailing-icon: i-lucide-life-buoy
+  ---
+  Abrir Ticket (Ajuda)
+  :::
 ::
 
 ::u-page-section
